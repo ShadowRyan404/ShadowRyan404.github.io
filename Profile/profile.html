@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF0000">
+    <title>ShadowRyan - Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="../mp4/bachgroundvid.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div> 
+    </div>
+    <div class="block">
+        <div class="profile">
+            <div class="avprof">
+                <div class="welcometext">
+                    Welcome to
+                    <span class="avatar-in-text">
+                        <div class="avapr"></div>
+                    </span>
+                    My WebSite
+                </div>
+            </div>
+            <div class="links-container">
+                <div class="contblock1">
+                    <div class="bl1">
+                        <div class="social-icon">
+                            <img src="../png/social.png" alt="Steam">
+                        </div>
+                        <a href="https://steamcommunity.com/profiles/76561199510818584/" class="social-link" target="_blank">
+                            <span class="social-text">Steam</span>
+                        </a>
+                    </div>
+                    <div class="bl2">
+                        <div class="social-icon">
+                            <img src="../png/twitch.png" alt="Twitch">
+                        </div>
+                        <a href="https://www.twitch.tv/shadowryan404" class="social-link" target="_blank">
+                            <span class="social-text">Twitch</span>
+                        </a>
+                    </div> 
+                </div>
+                <div class="contblock2">
+                    <div class="bl3">
+                        <div class="social-icon">
+                            <img src="../png/tik-tok.png" alt="TikTok">
+                        </div>
+                        <a href="https://www.tiktok.com/@shadow_ryan0404?_t=ZP-90iTIQE8ovf&_r=1" class="social-link" target="_blank">
+                            <span class="social-text">TikTok</span>
+                        </a>
+                    </div>
+                    <div class="bl4">
+                        <div class="social-icon">
+                            <img src="../png/telegram.png" alt="Telegram">
+                        </div>
+                        <a href="https://t.me/lostlife_shadow" class="social-link" target="_blank">
+                            <span class="social-text">Telegram Chanal</span>
+                        </a>
+                    </div> 
+                </div>
+                <div class="contblock3">
+                    <div class="bl5">
+                        <div class="social-icon">
+                            <img src="../png/discord.png" alt="Discord">
+                        </div>
+                        <a href="https://discordapp.com/users/761865695817891841" class="social-link" target="_blank">
+                            <span class="social-text">Discord</span>
+                        </a>
+                    </div>
+                    <div class="bl6">
+                        <div class="social-icon">
+                            <img src="../png/donationalerts.png" alt="Donate">
+                        </div>
+                        <a href="https://www.donationalerts.com/r/shadowryan404" class="social-link" target="_blank">
+                            <span class="social-text">Donate</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="muzpl">
+            <div class="music-player">
+                <div class="player-controls">
+                    <button class="control-btn prev-btn" aria-label="Previous track">
+                        <svg width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M13 2.5L5 7.119V3H3v10h2V8.881l8 4.619z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                    <button class="control-btn play-pause-btn" aria-label="Play/Pause">
+                        <svg class="play-icon" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288V1.713z" fill="currentColor"/>
+                        </svg>
+                        <svg class="pause-icon" width="16" height="16" viewBox="0 0 16 16" style="display: none;">
+                            <path d="M2.7 1a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7H2.7zm8 0a.7.7 0 0 0-.7.7v12.6a.7.7 0 0 0 .7.7h2.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-2.6z" fill="currentColor"/>
+                        </svg>
+                    </button>    
+                    <button class="control-btn next-btn" aria-label="Next track">
+                        <svg width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M11 3v4.119L3 2.5v11l8-4.619V13h2V3z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="track-info-line">
+                    <div class="artist-name">Исполнитель</div>
+                    <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="time-info">
+                            <span class="current-time">0:00</span>
+                            <span class="duration">0:00</span>
+                        </div>
+                    </div>
+                    <div class="track-name">Название трека</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="muzpl.js"></script>
+</body>
+</html>
