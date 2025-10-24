@@ -9,27 +9,27 @@ class MusicPlayer {
             {
                 title: "Дьявол!",
                 artist: "Cupsize",
-                src: "../music/CUPSIZE_-_dyavol_79803706.mp3"
+                src: "music/CUPSIZE_-_dyavol_79803706.mp3"
             },
             {
                 title: "I AM EVIL", 
                 artist: "dekma",
-                src: "../music/dekma,_hessfire,_endo!!_—_I_AM_EVIL_www_lightaudio_ru.mp3"
+                src: "music/dekma,_hessfire,_endo!!_—_I_AM_EVIL_www_lightaudio_ru.mp3"
             },
             {
                 title: "Сезон Охоты",
                 artist: "GENJUTSU", 
-                src: "../music/GENJUTSU - сезон охоты.mp3"
+                src: "music/GENJUTSU - сезон охоты.mp3"
             },
             {
                 title: "Hangman's Eyes",
                 artist: "LAZZY2WICE",
-                src: "../music/LAZZY2WICE_-_Hangmans_Eyes_73462949.mp3"
+                src: "music/LAZZY2WICE_-_Hangmans_Eyes_73462949.mp3"
             },
             {
                 title: "сдвг",
                 artist: "TWEETT",
-                src: "../music/TWEETT - сдвг.mp3"
+                src: "music/TWEETT - сдвг.mp3"
             }
         ];
         
